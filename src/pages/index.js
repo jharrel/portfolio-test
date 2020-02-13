@@ -19,13 +19,36 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
+// Software
+import ChatApp from '../assets/images/thumbs/ChatApp.jpg'
+import ChatApp1 from '../assets/images/fulls/ChatApp.jpg'
+
+import BookList from '../assets/images/thumbs/BookList.jpg'
+import BookList1 from '../assets/images/fulls/BookList.jpg'
+
+import EventFox from '../assets/images/thumbs/EventFox.jpg'
+import EventFox1 from '../assets/images/fulls/EventFox.jpg'
+
+import Instagram from '../assets/images/thumbs/Instagram.jpg'
+import Instagram1 from '../assets/images/fulls/Instagram1.jpg'
+
+import iPhone from '../assets/images/thumbs/iPhone.jpg'
+import iPhone1 from '../assets/images/fulls/iPhone.jpg'
+
+import Movies from '../assets/images/thumbs/MovieSite.jpg'
+import Movies1 from '../assets/images/fulls/Movies.jpg'
+
+import Sports from '../assets/images/thumbs/Sports.jpg'
+import Sports1 from '../assets/images/fulls/Sports.jpg'
+
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: ChatApp, thumbnail: ChatApp1, caption: 'Chat App', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '2', source: BookList, thumbnail: BookList1, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '3', source: EventFox1, thumbnail: EventFox, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '4', source: Instagram1, thumbnail: Instagram, caption: 'Instagram', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '5', source: iPhone1, thumbnail: iPhone, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '6', source: Movies1, thumbnail: Movies, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '7', source: Sports1, thumbnail: Sports, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
 
 class HomeIndex extends React.Component {
@@ -45,12 +68,11 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Welcome. </h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>This portfolio is a collection of work from ranging from software developement to creative service works. Contact me if you might have any questions as I am always looking for my next opportunity to grow. </p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="https://drive.google.com/open?id=1d7ACAzOZgRgEAnqSvMIYhAWXxw7gH78g" className="button" target="_blank">View my resume</a></li>
                         </ul>
                     </section>
 
@@ -74,7 +96,7 @@ class HomeIndex extends React.Component {
                         <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <form method="post" action="mailto:jharreldesign@gmail.com">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -89,17 +111,16 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
+                                        San Francisco, CA 94523<br />
                                         United States
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        971-533-9640
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="mailto:jharreldesign@gmail.com" target="_blank">jharreldesign@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
