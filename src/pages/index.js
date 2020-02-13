@@ -79,12 +79,55 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                        <div className="image">
+          <img src={EventFox1} alt="" />
+        </div>
+
+                        <div className="content">
+          <h2>
+            <a href="https://eventfox-management-app.herokuapp.com/" target="_blank">Eventfox Management</a>
+          </h2>
+          <h3>
+            Created with Ruby on Rails // Bootstrap 4
+          </h3>
+          <p>
+            A project management application allowing users to create tasks within individual projects. Users can see their individually assigned tasks and have the option to update them or delete them upon completion.
+          </p>
+        </div>
+
+        <section id="two" className="wrapper alt style2">
+      <section className="spotlight">
+        <div className="image">
+          <img src={EventFox1} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            <a href="https://eventfox-management-app.herokuapp.com/" target="_blank">Eventfox Management</a>
+          </h2>
+          <h5>
+            Created with Ruby on Rails // Bootstrap 4
+          </h5>
+          <br />
+          <p>
+            A project management application allowing users to create tasks within individual projects. Users can see their individually assigned tasks and have the option to update them or delete them upon completion.
+          </p>
+        </div>
+      </section>
+      </section>
+
+
+
+
+
+
+
+
+                        {/* <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,
                             caption,
                             description
-                        }))} />
+                        }))} /> */}
 
                         <ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
@@ -130,6 +173,8 @@ class HomeIndex extends React.Component {
                 </div>
 
             </Layout>
+
+            
         )
     }
 }
